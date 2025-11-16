@@ -9,7 +9,7 @@ export default function LandingPage() {
     <div className='landingPageContainer'>
         <nav>
           <div className='navHeader'>
-            <h2>Apna Video Call</h2>
+            <h2>Get Interview calls</h2>
           </div>
           <div className='navlist'>
               <p onClick={() => {
@@ -19,17 +19,20 @@ export default function LandingPage() {
                         router("/auth")
 
                     }}>Register</p>
-              <div role='button'>
-                  <p>Login</p>
-              </div>
+              <div onClick={() => {
+                        router("/auth")
+
+                    }} role='button'>
+                        <p>Login</p>
+                    </div>
           </div>  
         </nav>
 
         <div className="landingMainContainer">
                 <div>
-                    <h1><span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h1>
+                    <h1><span style={{ color: "#FF9839" }}>Connect</span> with your Recruiter</h1>
 
-                    <p>Cover a distance by Apna Video Call</p>
+                    <p>87% of students get placed within 10 days</p>
                     <div role='button'>
                         <Link to={"/auth"}>Get Started</Link>
                     </div>
