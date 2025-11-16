@@ -24,7 +24,7 @@ function HomeComponent() {
 
                 <div style={{ display: "flex", alignItems: "center" }}>
 
-                    <h2>Get Placed Faster With Interviews</h2>
+                    <h2>Get Interview calls</h2>
                 </div>           
                 
                 <div style={{ display: "flex", alignItems: "center" }}>
@@ -50,7 +50,7 @@ function HomeComponent() {
             <div className="meetContainer">
                 <div className="leftPanel">
                     <div>
-                        <h2>87% of our students get placed within 30 days after mock interview training.</h2>
+                        <h2>Providing Quality Interview Call Just Like real interview</h2>
                         
                         <div style={{ display: 'flex', gap: "10px" }}>
 
